@@ -3,7 +3,6 @@
 ![cover-large](./assets/fig2_01.png)
 We propose a retrieval-augmented diffusion framework, termed RADAb, for efficient antibody design. Our method leverages a set of structural homologous motifs that align with query structural constraints to guide the generative model in inversely optimizing antibodies according to desired design criteria. 
 
-Specifically, we introduce a structure-informed retrieval mechanism that integrates these exemplar motifs with the input backbone through a novel dual-branch denoising module, utilizing both structural and evolutionary information. Additionally, we develop a conditional diffusion model that iteratively refines the optimization process by incorporating both global context and local evolutionary conditions.
 ### Requirements
 You can create a new environment using the `requirements.txt` by  $ conda create --name `<env>` --file `requirements.txt`.
 
