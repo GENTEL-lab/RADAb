@@ -20,4 +20,3 @@ You can evaluate the generated structures by sequentially running `run_folding.p
 ### Complete code
 We are working on organizing the code and will release the code soon.
 
-# RADAb
