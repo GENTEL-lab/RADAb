@@ -1,6 +1,6 @@
 # RADAb
 
-![cover-large](./assets/fig2_01.png)
+![cover-large](./assets/main_fig.png)
 We propose a retrieval-augmented diffusion framework, termed RADAb, for efficient antibody design. Our method leverages a set of structural homologous motifs that align with query structural constraints to guide the generative model in inversely optimizing antibodies according to desired design criteria. 
 
 ### Requirements
@@ -15,8 +15,6 @@ Training process is implemented in `train.py`. The configuration is in the `./co
 ### Evaluation
 You can evaluate the generated structures by sequentially running `run_folding.py`, `run_relax.py`, and `run_eval.py`.
 
-### Main results
-![cover-large](./assets/results.png)
 ### Complete code
 We are working on organizing the code and will release the code soon.
 
